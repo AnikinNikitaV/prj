@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.media.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane fx:id="an" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #565656;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.mainController">
+    <children>
+      <TextArea fx:id="editor" layoutX="14.0" layoutY="628.0" prefHeight="88.0" prefWidth="1043.0" style="-fx-control-inner-background: #696969;" />
+      <TextArea fx:id="userList" editable="false" focusTraversable="false" layoutX="1063.0" layoutY="36.0" prefHeight="680.0" prefWidth="201.0" style="-fx-control-inner-background: #696969;" />
+      <TextArea fx:id="msg" editable="false" focusTraversable="false" layoutX="14.0" layoutY="36.0" prefHeight="587.0" prefWidth="1043.0" style="-fx-control-inner-background: #696969;" />
+        <Label fx:id="chatFrame" alignment="CENTER" contentDisplay="CENTER" focusTraversable="false" layoutX="1.0" prefHeight="25.0" prefWidth="1280.0" text="CoolStoryChat" textFill="#18ff36b2" underline="true">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Label>
+        <Pane fx:id="loadingPane1" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #3b2d47;">
+            <children>
+                <ImageView fx:id="img" fitHeight="300.0" fitWidth="400.0" layoutX="440.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true" />
+            </children></Pane>
+        <Pane fx:id="loadingPane3" layoutX="441.0" layoutY="207.0" prefHeight="5.0" prefWidth="400.0" style="-fx-background-color: #3b2d47;" />
+        <Pane fx:id="loadingPane2" layoutX="439.0" layoutY="212.0" prefHeight="300.0" prefWidth="5.0" style="-fx-background-color: #3b2d47;" />
+    </children>
+</AnchorPane>
