@@ -4,15 +4,15 @@
    В окне клиента программы отображается список пользователей, которые в данный момент находятся в чате
    Помимо ника рядом с каждым сообщением присутствует время его отправки
 3. Схема архитектуры
-   ![Arch](https://github.com/AnikinNikitaV/prj/arc.png)
+   ![Arch](https://github.com/AnikinNikitaV/prj/blob/master/arc.png)
    Пояснение: программа написана на языке Java с использованием JavaFX и SceneBuilder для реализации GUI
 4. Тестировалось:
     Корректность отображения сообщений и списка пользователей (подключалось несколько пользователей, каждй видел сообщения каждого, каждый видел каждого в списке пользователей)
     Невозможность подключения под уже существующим ником (предпринимались попытки перед подключением ввести уже существующий ник)
     Корректная реакция сервера на текстовые команды (на сервер отправлялись текстовые команды)
 5. Сборка
-   ![client](https://github.com/AnikinNikitaV/prj/client.png)
-   ![server](https://github.com/AnikinNikitaV/prj/server.png)
+   ![client](https://github.com/AnikinNikitaV/prj/blob/master/client.png)
+   ![server](https://github.com/AnikinNikitaV/prj/blob/master/server.png)
 
 
 
